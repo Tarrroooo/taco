@@ -12,4 +12,4 @@ SELECT
     email,
     phone_number
 
-FROM {{ ref('stg_salesforce__customers') 
+FROM {{ ref('stg_salesforce__customers') }}
